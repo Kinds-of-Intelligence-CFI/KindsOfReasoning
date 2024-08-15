@@ -1,0 +1,82 @@
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bread, bakery, butcher's, market"}],"ideal":"bread"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: garlic, lemon, aubergine, onion, sweet potato"}],"ideal":"lemon"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: football, tennis, basketball, water, water polo, baseball"}],"ideal":"water"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: dress, jeans, blouse, grey, socks, shirt"}],"ideal":"grey"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: skirt, dress, pen, jacket"}],"ideal":"pen"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: rectangle, circle, book, triangle, heptagon, tetrahedron"}],"ideal":"book"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: table, pen, armchair, wardrobe"}],"ideal":"pen"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bath, sink, fridge, oven, stove"}],"ideal":"bath"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: eye, arm, foot, soap"}],"ideal":"soap"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: eyebrow, nose, arm, eyelash"}],"ideal":"arm"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: listen, study, tell, happy, watch"}],"ideal":"happy"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bed, dress, tie, skirt, shoe"}],"ideal":"bed"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: gin, cognac, wine, water"}],"ideal":"water"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bath, cottage, skyscraper, hut"}],"ideal":"bath"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: I, me, him, her, them"}],"ideal":"I"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: mouse, dragonfly, ladybug, ant, beetle"}],"ideal":"mouse"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: rose, daisy, lily, computer, tulip"}],"ideal":"computer"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bakery, milk, shoe shop, post office, kiosk, restaurant"}],"ideal":"milk"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: grape, plum, fig, potato, peach"}],"ideal":"potato"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: helicopter, square, car, tram"}],"ideal":"square"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: May, twelve, three, eleven, hundred"}],"ideal":"May"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: cloudy, rainy, sunny, star"}],"ideal":"star"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: apple, pear, strawberry, phone, banana"}],"ideal":"phone"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: spoon, cow, fork, knife, napkin, plate"}],"ideal":"cow"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: cathedral, church, glove, abbey, convent"}],"ideal":"glove"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: muffin, cupcake, picture, bun, loaf, croissant"}],"ideal":"picture"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: in, boy, or, under"}],"ideal":"boy"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: mother, cousin, aunt, cup, uncle"}],"ideal":"cup"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: eighty, seven, twenty, fifty"}],"ideal":"seven"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: lamb, sock, duck, horse, rooster"}],"ideal":"sock"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: museum, hospital, school, balcony, church"}],"ideal":"balcony"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: grape, orange, potato, raspberry, kiwi"}],"ideal":"potato"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: Albania, Asia, Africa, America"}],"ideal":"Albania"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: worked, studied, live, walked"}],"ideal":"live"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: jump, clap, pencil, read, run"}],"ideal":"pencil"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: nice, odd, strong, house"}],"ideal":"house"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: rose, cheese, fruit, vegetables, fish"}],"ideal":"rose"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: koala, bear, white, zebra, kangaroo, horse"}],"ideal":"white"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: milk, pink, coffee, tea, beer"}],"ideal":"pink"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: John, Tom, Mark, Mary"}],"ideal":"Mary"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: green, kitchen, bathroom, dining room, garage"}],"ideal":"green"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: glue, scissors, black, paper, pen"}],"ideal":"black"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bedroom, kitchen, carpet, dining room, bathroom"}],"ideal":"carpet"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: face, swimming, cycling, climbing"}],"ideal":"face"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: dentist, doctor, postman, hospital, cashier"}],"ideal":"hospital"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: glass, head, arm, leg, hand, foot"}],"ideal":"glass"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: your, book, phone, fan, fame, photo"}],"ideal":"your"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: appetizer, plumber, teacher, waiter, painter"}],"ideal":"appetizer"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: shrimp, whale, tiger, eel, shark"}],"ideal":"tiger"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: Ames, Iowa, Des Moines, Story County, machine learning"}],"ideal":"machine learning"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: actor, doctor, teacher, three, plumber, proctor"}],"ideal":"three"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: skirt, dress, uncle, tie, shirt"}],"ideal":"uncle"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: pens, notebook, pencils, erasers, papers"}],"ideal":"notebook"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: Michael Jordan, machine learning, basketball, baseball, black"}],"ideal":"machine learning"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: Monday, spring, summer, winter, fall"}],"ideal":"Monday"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: word, ball, teddy, doll"}],"ideal":"word"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: Spain, France, German, England, Singapore"}],"ideal":"German"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: doll, snow, rain, wind"}],"ideal":"doll"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: three, twenty, seventeen, laptop, zero"}],"ideal":"laptop"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: grapefruit, anana, raspberry, lettuce, grape, avocado"}],"ideal":"lettuce"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: train, cream, airplane, helicopter, ship"}],"ideal":"cream"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: box, trombone, tuba, harp, oboe, triangle"}],"ideal":"box"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: table, rabbit, cow, hen"}],"ideal":"table"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: oil, garlic, skirt, basil"}],"ideal":"skirt"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: in, circle, on, at, by"}],"ideal":"circle"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: pen, pencil, white, eraser, post-it, clip"}],"ideal":"white"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: zebra, bee, fly, butterfly, ant, dragonfly"}],"ideal":"zebra"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: lift, lorry, pavement, vacation, crane"}],"ideal":"vacation"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: ruler, calculator, stapler, loudspeaker"}],"ideal":"loudspeaker"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: mouth, white, arm, head, nail"}],"ideal":"white"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: pencil, eraser, baby, ruler, notebook"}],"ideal":"baby"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: Europe, Greece, Italy, Germany, Spain"}],"ideal":"Europe"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: under, on, behind, notebook, above"}],"ideal":"notebook"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: square, circle, triangle, trousers, rectangle, pentagon"}],"ideal":"trousers"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: June, four, seventy, twelve, thousand"}],"ideal":"June"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: boil, type, fry, chop, steam, rinse"}],"ideal":"type"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bus, van, car, fly"}],"ideal":"fly"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: break, play, do, write"}],"ideal":"do"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: water, tea, coffe, cookie, beer"}],"ideal":"cookie"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: Dublin, France, Tokyo, Athens, Paris, San Francisco"}],"ideal":"France"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: bus, three, plane, train, boat, car"}],"ideal":"three"}
+{"input":[{"role":"system","content":"Answer with a single word."},{"role":"user","content":"Pick the odd word out: think, interesting, cry, learn, do, dream"}],"ideal":"interesting"}

@@ -1,0 +1,18 @@
+cosmos_qa:
+  id: cosmos_qa.test.v1
+  metrics:
+  - accuracy
+cosmos_qa.test.v1:
+  args:
+    samples_jsonl: cosmos_qa/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+cosmos_qa_few_shot:
+  id: cosmos_qa_few_shot.test.v1
+  metrics:
+  - accuracy
+cosmos_qa_few_shot.test.v1:
+  args:
+    few_shot_jsonl: cosmos_qa/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: cosmos_qa/samples.jsonl
+  class: evals.elsuite.basic.match:Match

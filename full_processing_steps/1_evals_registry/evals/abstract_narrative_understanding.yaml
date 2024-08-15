@@ -1,0 +1,54 @@
+abstract_narrative_understanding_4_distractors:
+  id: abstract_narrative_understanding_4_distractors.test.v1
+  metrics:
+  - accuracy
+abstract_narrative_understanding_4_distractors.test.v1:
+  args:
+    samples_jsonl: abstract_narrative_understanding/4_distractors/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+abstract_narrative_understanding_4_distractors_few_shot:
+  id: abstract_narrative_understanding_4_distractors_few_shot.test.v1
+  metrics:
+  - accuracy
+abstract_narrative_understanding_4_distractors_few_shot.test.v1:
+  args:
+    few_shot_jsonl: abstract_narrative_understanding/4_distractors/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: abstract_narrative_understanding/4_distractors/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+abstract_narrative_understanding_99_distractors:
+  id: abstract_narrative_understanding_99_distractors.test.v1
+  metrics:
+  - accuracy
+abstract_narrative_understanding_99_distractors.test.v1:
+  args:
+    samples_jsonl: abstract_narrative_understanding/99_distractors/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+abstract_narrative_understanding_99_distractors_few_shot:
+  id: abstract_narrative_understanding_99_distractors_few_shot.test.v1
+  metrics:
+  - accuracy
+abstract_narrative_understanding_99_distractors_few_shot.test.v1:
+  args:
+    few_shot_jsonl: abstract_narrative_understanding/99_distractors/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: abstract_narrative_understanding/99_distractors/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+abstract_narrative_understanding_9_distractors:
+  id: abstract_narrative_understanding_9_distractors.test.v1
+  metrics:
+  - accuracy
+abstract_narrative_understanding_9_distractors.test.v1:
+  args:
+    samples_jsonl: abstract_narrative_understanding/9_distractors/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+abstract_narrative_understanding_9_distractors_few_shot:
+  id: abstract_narrative_understanding_9_distractors_few_shot.test.v1
+  metrics:
+  - accuracy
+abstract_narrative_understanding_9_distractors_few_shot.test.v1:
+  args:
+    few_shot_jsonl: abstract_narrative_understanding/9_distractors/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: abstract_narrative_understanding/9_distractors/samples.jsonl
+  class: evals.elsuite.basic.match:Match

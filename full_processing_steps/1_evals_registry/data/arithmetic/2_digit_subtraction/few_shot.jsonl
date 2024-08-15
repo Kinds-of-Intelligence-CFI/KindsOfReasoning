@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 33 minus 33?","name":"example_user"},{"role":"system","content":"0","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 45 minus 86?","name":"example_user"},{"role":"system","content":"-41","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 63 minus 65?","name":"example_user"},{"role":"system","content":"-2","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 44 minus 63?","name":"example_user"},{"role":"system","content":"-19","name":"example_assistant"}]}

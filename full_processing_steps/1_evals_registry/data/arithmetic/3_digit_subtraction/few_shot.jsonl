@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 882 minus 244?","name":"example_user"},{"role":"system","content":"638","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 966 minus 140?","name":"example_user"},{"role":"system","content":"826","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 282 minus 641?","name":"example_user"},{"role":"system","content":"-359","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 508 minus 385?","name":"example_user"},{"role":"system","content":"123","name":"example_assistant"}]}

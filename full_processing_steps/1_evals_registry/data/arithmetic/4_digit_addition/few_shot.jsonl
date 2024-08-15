@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 5259 plus 6610?","name":"example_user"},{"role":"system","content":"11869","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 5666 plus 9786?","name":"example_user"},{"role":"system","content":"15452","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 8844 plus 2791?","name":"example_user"},{"role":"system","content":"11635","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 2924 plus 4909?","name":"example_user"},{"role":"system","content":"7833","name":"example_assistant"}]}

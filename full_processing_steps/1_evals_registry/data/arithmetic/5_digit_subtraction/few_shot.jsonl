@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 43479 minus 55006?","name":"example_user"},{"role":"system","content":"-11527","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 31080 minus 53321?","name":"example_user"},{"role":"system","content":"-22241","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 83865 minus 52962?","name":"example_user"},{"role":"system","content":"30903","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 58561 minus 51102?","name":"example_user"},{"role":"system","content":"7459","name":"example_assistant"}]}

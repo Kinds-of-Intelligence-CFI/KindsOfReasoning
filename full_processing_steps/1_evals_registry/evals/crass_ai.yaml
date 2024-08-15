@@ -1,0 +1,18 @@
+crass_ai:
+  id: crass_ai.test.v1
+  metrics:
+  - accuracy
+crass_ai.test.v1:
+  args:
+    samples_jsonl: crass_ai/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+crass_ai_few_shot:
+  id: crass_ai_few_shot.test.v1
+  metrics:
+  - accuracy
+crass_ai_few_shot.test.v1:
+  args:
+    few_shot_jsonl: crass_ai/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: crass_ai/samples.jsonl
+  class: evals.elsuite.basic.match:Match

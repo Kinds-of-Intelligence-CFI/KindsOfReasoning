@@ -1,0 +1,18 @@
+ropes:
+  id: ropes.test.v1
+  metrics:
+  - accuracy
+ropes.test.v1:
+  args:
+    samples_jsonl: ropes/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+ropes_few_shot:
+  id: ropes_few_shot.test.v1
+  metrics:
+  - accuracy
+ropes_few_shot.test.v1:
+  args:
+    few_shot_jsonl: ropes/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: ropes/samples.jsonl
+  class: evals.elsuite.basic.match:Match

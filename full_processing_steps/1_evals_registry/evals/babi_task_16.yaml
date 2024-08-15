@@ -1,0 +1,18 @@
+babi_task_16:
+  id: babi_task_16.test.v1
+  metrics:
+  - accuracy
+babi_task_16.test.v1:
+  args:
+    samples_jsonl: babi_task_16/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+babi_task_16_few_shot:
+  id: babi_task_16_few_shot.test.v1
+  metrics:
+  - accuracy
+babi_task_16_few_shot.test.v1:
+  args:
+    few_shot_jsonl: babi_task_16/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: babi_task_16/samples.jsonl
+  class: evals.elsuite.basic.match:Match

@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 127 times 198?","name":"example_user"},{"role":"system","content":"25146","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 387 times 186?","name":"example_user"},{"role":"system","content":"71982","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 887 times 913?","name":"example_user"},{"role":"system","content":"809831","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 616 times 212?","name":"example_user"},{"role":"system","content":"130592","name":"example_assistant"}]}

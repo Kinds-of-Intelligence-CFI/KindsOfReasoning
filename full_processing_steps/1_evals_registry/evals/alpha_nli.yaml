@@ -1,0 +1,18 @@
+alpha_nli:
+  id: alpha_nli.test.v1
+  metrics:
+  - accuracy
+alpha_nli.test.v1:
+  args:
+    samples_jsonl: alpha_nli/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+alpha_nli_few_shot:
+  id: alpha_nli_few_shot.test.v1
+  metrics:
+  - accuracy
+alpha_nli_few_shot.test.v1:
+  args:
+    few_shot_jsonl: alpha_nli/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: alpha_nli/samples.jsonl
+  class: evals.elsuite.basic.match:Match

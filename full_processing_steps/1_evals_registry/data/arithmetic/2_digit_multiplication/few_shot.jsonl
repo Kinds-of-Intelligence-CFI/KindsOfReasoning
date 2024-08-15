@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 80 times 88?","name":"example_user"},{"role":"system","content":"7040","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 57 times 13?","name":"example_user"},{"role":"system","content":"741","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 94 times 35?","name":"example_user"},{"role":"system","content":"3290","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 79 times 91?","name":"example_user"},{"role":"system","content":"7189","name":"example_assistant"}]}

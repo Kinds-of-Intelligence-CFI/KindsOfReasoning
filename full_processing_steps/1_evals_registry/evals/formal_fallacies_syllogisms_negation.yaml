@@ -1,0 +1,18 @@
+formal_fallacies_syllogisms_negation:
+  id: formal_fallacies_syllogisms_negation.test.v1
+  metrics:
+  - accuracy
+formal_fallacies_syllogisms_negation.test.v1:
+  args:
+    samples_jsonl: formal_fallacies_syllogisms_negation/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+formal_fallacies_syllogisms_negation_few_shot:
+  id: formal_fallacies_syllogisms_negation_few_shot.test.v1
+  metrics:
+  - accuracy
+formal_fallacies_syllogisms_negation_few_shot.test.v1:
+  args:
+    few_shot_jsonl: formal_fallacies_syllogisms_negation/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: formal_fallacies_syllogisms_negation/samples.jsonl
+  class: evals.elsuite.basic.match:Match

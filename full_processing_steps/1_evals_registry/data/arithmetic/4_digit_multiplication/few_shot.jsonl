@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 7072 times 1312?","name":"example_user"},{"role":"system","content":"9278464","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 4271 times 4053?","name":"example_user"},{"role":"system","content":"17310363","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 3310 times 7754?","name":"example_user"},{"role":"system","content":"25665740","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 1417 times 8510?","name":"example_user"},{"role":"system","content":"12058670","name":"example_assistant"}]}

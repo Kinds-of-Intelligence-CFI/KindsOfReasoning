@@ -1,0 +1,18 @@
+space_nli:
+  id: space_nli.test.v1
+  metrics:
+  - accuracy
+space_nli.test.v1:
+  args:
+    samples_jsonl: space_nli/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+space_nli_few_shot:
+  id: space_nli_few_shot.test.v1
+  metrics:
+  - accuracy
+space_nli_few_shot.test.v1:
+  args:
+    few_shot_jsonl: space_nli/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: space_nli/samples.jsonl
+  class: evals.elsuite.basic.match:Match

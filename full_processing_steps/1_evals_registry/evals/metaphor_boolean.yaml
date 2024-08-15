@@ -1,0 +1,18 @@
+metaphor_boolean:
+  id: metaphor_boolean.test.v1
+  metrics:
+  - accuracy
+metaphor_boolean.test.v1:
+  args:
+    samples_jsonl: metaphor_boolean/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+metaphor_boolean_few_shot:
+  id: metaphor_boolean_few_shot.test.v1
+  metrics:
+  - accuracy
+metaphor_boolean_few_shot.test.v1:
+  args:
+    few_shot_jsonl: metaphor_boolean/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: metaphor_boolean/samples.jsonl
+  class: evals.elsuite.basic.match:Match

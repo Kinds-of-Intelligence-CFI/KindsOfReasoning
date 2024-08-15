@@ -1,0 +1,18 @@
+logical_args:
+  id: logical_args.test.v1
+  metrics:
+  - accuracy
+logical_args.test.v1:
+  args:
+    samples_jsonl: logical_args/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+logical_args_few_shot:
+  id: logical_args_few_shot.test.v1
+  metrics:
+  - accuracy
+logical_args_few_shot.test.v1:
+  args:
+    few_shot_jsonl: logical_args/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: logical_args/samples.jsonl
+  class: evals.elsuite.basic.match:Match

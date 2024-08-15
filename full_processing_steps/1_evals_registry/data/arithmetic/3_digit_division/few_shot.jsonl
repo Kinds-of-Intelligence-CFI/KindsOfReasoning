@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 842 divided by 1?","name":"example_user"},{"role":"system","content":"842","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 355 divided by 71?","name":"example_user"},{"role":"system","content":"5","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 705 divided by 5?","name":"example_user"},{"role":"system","content":"141","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 680 divided by 68?","name":"example_user"},{"role":"system","content":"10","name":"example_assistant"}]}

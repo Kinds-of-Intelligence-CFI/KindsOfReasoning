@@ -1,0 +1,18 @@
+anli:
+  id: anli.test.v1
+  metrics:
+  - accuracy
+anli.test.v1:
+  args:
+    samples_jsonl: anli/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+anli_few_shot:
+  id: anli_few_shot.test.v1
+  metrics:
+  - accuracy
+anli_few_shot.test.v1:
+  args:
+    few_shot_jsonl: anli/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: anli/samples.jsonl
+  class: evals.elsuite.basic.match:Match

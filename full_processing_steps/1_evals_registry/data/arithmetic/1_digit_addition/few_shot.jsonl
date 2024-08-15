@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 8 plus 3?","name":"example_user"},{"role":"system","content":"11","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 5 plus 3?","name":"example_user"},{"role":"system","content":"8","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 7 plus 0?","name":"example_user"},{"role":"system","content":"7","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 4 plus 5?","name":"example_user"},{"role":"system","content":"9","name":"example_assistant"}]}

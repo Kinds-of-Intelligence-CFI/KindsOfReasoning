@@ -1,0 +1,18 @@
+geometric_shapes:
+  id: geometric_shapes.test.v1
+  metrics:
+  - accuracy
+geometric_shapes.test.v1:
+  args:
+    samples_jsonl: geometric_shapes/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+geometric_shapes_few_shot:
+  id: geometric_shapes_few_shot.test.v1
+  metrics:
+  - accuracy
+geometric_shapes_few_shot.test.v1:
+  args:
+    few_shot_jsonl: geometric_shapes/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: geometric_shapes/samples.jsonl
+  class: evals.elsuite.basic.match:Match

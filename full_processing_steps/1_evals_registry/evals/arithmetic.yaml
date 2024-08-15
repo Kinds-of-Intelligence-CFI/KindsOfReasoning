@@ -1,0 +1,360 @@
+arithmetic_1_digit_addition:
+  id: arithmetic_1_digit_addition.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_addition.test.v1:
+  args:
+    samples_jsonl: arithmetic/1_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_1_digit_addition_few_shot:
+  id: arithmetic_1_digit_addition_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_addition_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/1_digit_addition/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/1_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_1_digit_division:
+  id: arithmetic_1_digit_division.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_division.test.v1:
+  args:
+    samples_jsonl: arithmetic/1_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_1_digit_division_few_shot:
+  id: arithmetic_1_digit_division_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_division_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/1_digit_division/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/1_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_1_digit_multiplication:
+  id: arithmetic_1_digit_multiplication.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_multiplication.test.v1:
+  args:
+    samples_jsonl: arithmetic/1_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_1_digit_multiplication_few_shot:
+  id: arithmetic_1_digit_multiplication_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_multiplication_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/1_digit_multiplication/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/1_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_1_digit_subtraction:
+  id: arithmetic_1_digit_subtraction.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_subtraction.test.v1:
+  args:
+    samples_jsonl: arithmetic/1_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_1_digit_subtraction_few_shot:
+  id: arithmetic_1_digit_subtraction_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_1_digit_subtraction_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/1_digit_subtraction/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/1_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_addition:
+  id: arithmetic_2_digit_addition.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_addition.test.v1:
+  args:
+    samples_jsonl: arithmetic/2_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_addition_few_shot:
+  id: arithmetic_2_digit_addition_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_addition_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/2_digit_addition/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/2_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_division:
+  id: arithmetic_2_digit_division.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_division.test.v1:
+  args:
+    samples_jsonl: arithmetic/2_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_division_few_shot:
+  id: arithmetic_2_digit_division_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_division_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/2_digit_division/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/2_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_multiplication:
+  id: arithmetic_2_digit_multiplication.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_multiplication.test.v1:
+  args:
+    samples_jsonl: arithmetic/2_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_multiplication_few_shot:
+  id: arithmetic_2_digit_multiplication_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_multiplication_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/2_digit_multiplication/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/2_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_subtraction:
+  id: arithmetic_2_digit_subtraction.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_subtraction.test.v1:
+  args:
+    samples_jsonl: arithmetic/2_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_2_digit_subtraction_few_shot:
+  id: arithmetic_2_digit_subtraction_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_2_digit_subtraction_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/2_digit_subtraction/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/2_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_addition:
+  id: arithmetic_3_digit_addition.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_addition.test.v1:
+  args:
+    samples_jsonl: arithmetic/3_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_addition_few_shot:
+  id: arithmetic_3_digit_addition_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_addition_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/3_digit_addition/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/3_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_division:
+  id: arithmetic_3_digit_division.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_division.test.v1:
+  args:
+    samples_jsonl: arithmetic/3_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_division_few_shot:
+  id: arithmetic_3_digit_division_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_division_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/3_digit_division/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/3_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_multiplication:
+  id: arithmetic_3_digit_multiplication.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_multiplication.test.v1:
+  args:
+    samples_jsonl: arithmetic/3_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_multiplication_few_shot:
+  id: arithmetic_3_digit_multiplication_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_multiplication_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/3_digit_multiplication/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/3_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_subtraction:
+  id: arithmetic_3_digit_subtraction.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_subtraction.test.v1:
+  args:
+    samples_jsonl: arithmetic/3_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_3_digit_subtraction_few_shot:
+  id: arithmetic_3_digit_subtraction_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_3_digit_subtraction_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/3_digit_subtraction/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/3_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_addition:
+  id: arithmetic_4_digit_addition.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_addition.test.v1:
+  args:
+    samples_jsonl: arithmetic/4_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_addition_few_shot:
+  id: arithmetic_4_digit_addition_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_addition_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/4_digit_addition/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/4_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_division:
+  id: arithmetic_4_digit_division.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_division.test.v1:
+  args:
+    samples_jsonl: arithmetic/4_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_division_few_shot:
+  id: arithmetic_4_digit_division_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_division_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/4_digit_division/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/4_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_multiplication:
+  id: arithmetic_4_digit_multiplication.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_multiplication.test.v1:
+  args:
+    samples_jsonl: arithmetic/4_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_multiplication_few_shot:
+  id: arithmetic_4_digit_multiplication_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_multiplication_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/4_digit_multiplication/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/4_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_subtraction:
+  id: arithmetic_4_digit_subtraction.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_subtraction.test.v1:
+  args:
+    samples_jsonl: arithmetic/4_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_4_digit_subtraction_few_shot:
+  id: arithmetic_4_digit_subtraction_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_4_digit_subtraction_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/4_digit_subtraction/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/4_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_addition:
+  id: arithmetic_5_digit_addition.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_addition.test.v1:
+  args:
+    samples_jsonl: arithmetic/5_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_addition_few_shot:
+  id: arithmetic_5_digit_addition_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_addition_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/5_digit_addition/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/5_digit_addition/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_division:
+  id: arithmetic_5_digit_division.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_division.test.v1:
+  args:
+    samples_jsonl: arithmetic/5_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_division_few_shot:
+  id: arithmetic_5_digit_division_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_division_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/5_digit_division/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/5_digit_division/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_multiplication:
+  id: arithmetic_5_digit_multiplication.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_multiplication.test.v1:
+  args:
+    samples_jsonl: arithmetic/5_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_multiplication_few_shot:
+  id: arithmetic_5_digit_multiplication_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_multiplication_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/5_digit_multiplication/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/5_digit_multiplication/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_subtraction:
+  id: arithmetic_5_digit_subtraction.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_subtraction.test.v1:
+  args:
+    samples_jsonl: arithmetic/5_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+arithmetic_5_digit_subtraction_few_shot:
+  id: arithmetic_5_digit_subtraction_few_shot.test.v1
+  metrics:
+  - accuracy
+arithmetic_5_digit_subtraction_few_shot.test.v1:
+  args:
+    few_shot_jsonl: arithmetic/5_digit_subtraction/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: arithmetic/5_digit_subtraction/samples.jsonl
+  class: evals.elsuite.basic.match:Match

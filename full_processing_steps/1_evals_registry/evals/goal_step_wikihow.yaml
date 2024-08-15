@@ -1,0 +1,54 @@
+goal_step_wikihow_goal_inference:
+  id: goal_step_wikihow_goal_inference.test.v1
+  metrics:
+  - accuracy
+goal_step_wikihow_goal_inference.test.v1:
+  args:
+    samples_jsonl: goal_step_wikihow/goal_inference/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+goal_step_wikihow_goal_inference_few_shot:
+  id: goal_step_wikihow_goal_inference_few_shot.test.v1
+  metrics:
+  - accuracy
+goal_step_wikihow_goal_inference_few_shot.test.v1:
+  args:
+    few_shot_jsonl: goal_step_wikihow/goal_inference/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: goal_step_wikihow/goal_inference/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+goal_step_wikihow_step_inference:
+  id: goal_step_wikihow_step_inference.test.v1
+  metrics:
+  - accuracy
+goal_step_wikihow_step_inference.test.v1:
+  args:
+    samples_jsonl: goal_step_wikihow/step_inference/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+goal_step_wikihow_step_inference_few_shot:
+  id: goal_step_wikihow_step_inference_few_shot.test.v1
+  metrics:
+  - accuracy
+goal_step_wikihow_step_inference_few_shot.test.v1:
+  args:
+    few_shot_jsonl: goal_step_wikihow/step_inference/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: goal_step_wikihow/step_inference/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+goal_step_wikihow_step_ordering:
+  id: goal_step_wikihow_step_ordering.test.v1
+  metrics:
+  - accuracy
+goal_step_wikihow_step_ordering.test.v1:
+  args:
+    samples_jsonl: goal_step_wikihow/step_ordering/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+goal_step_wikihow_step_ordering_few_shot:
+  id: goal_step_wikihow_step_ordering_few_shot.test.v1
+  metrics:
+  - accuracy
+goal_step_wikihow_step_ordering_few_shot.test.v1:
+  args:
+    few_shot_jsonl: goal_step_wikihow/step_ordering/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: goal_step_wikihow/step_ordering/samples.jsonl
+  class: evals.elsuite.basic.match:Match

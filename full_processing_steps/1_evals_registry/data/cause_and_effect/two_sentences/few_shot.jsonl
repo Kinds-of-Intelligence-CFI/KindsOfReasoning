@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"\n1. Alice didn't wake up.\n2. Alice missed her flight.","name":"example_user"},{"role":"system","content":"1","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"\n1. I put my clothes in the washing machine.\n2. My clothes got dirty.","name":"example_user"},{"role":"system","content":"2","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"\n1. The girl caught a cold.\n2. The girl didn't wear her sweater.","name":"example_user"},{"role":"system","content":"2","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"\n1. The laptop ran out of battery.\n2. George plugged the laptop charger in.","name":"example_user"},{"role":"system","content":"1","name":"example_assistant"}]}

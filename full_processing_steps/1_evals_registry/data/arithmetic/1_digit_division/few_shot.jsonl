@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 7 divided by 7?","name":"example_user"},{"role":"system","content":"1","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 5 divided by 5?","name":"example_user"},{"role":"system","content":"1","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 1 divided by 1?","name":"example_user"},{"role":"system","content":"1","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 5 divided by 1?","name":"example_user"},{"role":"system","content":"5","name":"example_assistant"}]}

@@ -1,0 +1,18 @@
+fantasy_reasoning:
+  id: fantasy_reasoning.test.v1
+  metrics:
+  - accuracy
+fantasy_reasoning.test.v1:
+  args:
+    samples_jsonl: fantasy_reasoning/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+fantasy_reasoning_few_shot:
+  id: fantasy_reasoning_few_shot.test.v1
+  metrics:
+  - accuracy
+fantasy_reasoning_few_shot.test.v1:
+  args:
+    few_shot_jsonl: fantasy_reasoning/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: fantasy_reasoning/samples.jsonl
+  class: evals.elsuite.basic.match:Match

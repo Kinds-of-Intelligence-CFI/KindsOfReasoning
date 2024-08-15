@@ -1,0 +1,18 @@
+emoji_movie:
+  id: emoji_movie.test.v1
+  metrics:
+  - accuracy
+emoji_movie.test.v1:
+  args:
+    samples_jsonl: emoji_movie/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+emoji_movie_few_shot:
+  id: emoji_movie_few_shot.test.v1
+  metrics:
+  - accuracy
+emoji_movie_few_shot.test.v1:
+  args:
+    few_shot_jsonl: emoji_movie/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: emoji_movie/samples.jsonl
+  class: evals.elsuite.basic.match:Match

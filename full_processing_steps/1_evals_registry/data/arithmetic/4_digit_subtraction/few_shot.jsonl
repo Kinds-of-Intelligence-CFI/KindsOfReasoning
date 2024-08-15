@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 2013 minus 6868?","name":"example_user"},{"role":"system","content":"-4855","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 8189 minus 3592?","name":"example_user"},{"role":"system","content":"4597","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 6499 minus 6050?","name":"example_user"},{"role":"system","content":"449","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 9388 minus 4644?","name":"example_user"},{"role":"system","content":"4744","name":"example_assistant"}]}

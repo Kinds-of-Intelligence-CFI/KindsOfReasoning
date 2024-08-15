@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 888 plus 998?","name":"example_user"},{"role":"system","content":"1886","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 645 plus 321?","name":"example_user"},{"role":"system","content":"966","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 885 plus 306?","name":"example_user"},{"role":"system","content":"1191","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 668 plus 217?","name":"example_user"},{"role":"system","content":"885","name":"example_assistant"}]}

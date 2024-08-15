@@ -1,0 +1,54 @@
+cause_and_effect_one_sentence:
+  id: cause_and_effect_one_sentence.test.v1
+  metrics:
+  - accuracy
+cause_and_effect_one_sentence.test.v1:
+  args:
+    samples_jsonl: cause_and_effect/one_sentence/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+cause_and_effect_one_sentence_few_shot:
+  id: cause_and_effect_one_sentence_few_shot.test.v1
+  metrics:
+  - accuracy
+cause_and_effect_one_sentence_few_shot.test.v1:
+  args:
+    few_shot_jsonl: cause_and_effect/one_sentence/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: cause_and_effect/one_sentence/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+cause_and_effect_one_sentence_no_prompt:
+  id: cause_and_effect_one_sentence_no_prompt.test.v1
+  metrics:
+  - accuracy
+cause_and_effect_one_sentence_no_prompt.test.v1:
+  args:
+    samples_jsonl: cause_and_effect/one_sentence_no_prompt/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+cause_and_effect_one_sentence_no_prompt_few_shot:
+  id: cause_and_effect_one_sentence_no_prompt_few_shot.test.v1
+  metrics:
+  - accuracy
+cause_and_effect_one_sentence_no_prompt_few_shot.test.v1:
+  args:
+    few_shot_jsonl: cause_and_effect/one_sentence_no_prompt/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: cause_and_effect/one_sentence_no_prompt/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+cause_and_effect_two_sentences:
+  id: cause_and_effect_two_sentences.test.v1
+  metrics:
+  - accuracy
+cause_and_effect_two_sentences.test.v1:
+  args:
+    samples_jsonl: cause_and_effect/two_sentences/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+cause_and_effect_two_sentences_few_shot:
+  id: cause_and_effect_two_sentences_few_shot.test.v1
+  metrics:
+  - accuracy
+cause_and_effect_two_sentences_few_shot.test.v1:
+  args:
+    few_shot_jsonl: cause_and_effect/two_sentences/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: cause_and_effect/two_sentences/samples.jsonl
+  class: evals.elsuite.basic.match:Match

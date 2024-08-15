@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 11 plus 99?","name":"example_user"},{"role":"system","content":"110","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 31 plus 73?","name":"example_user"},{"role":"system","content":"104","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 23 plus 63?","name":"example_user"},{"role":"system","content":"86","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 92 plus 38?","name":"example_user"},{"role":"system","content":"130","name":"example_assistant"}]}

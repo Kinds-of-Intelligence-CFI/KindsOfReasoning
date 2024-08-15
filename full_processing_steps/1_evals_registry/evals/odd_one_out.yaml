@@ -1,0 +1,18 @@
+odd_one_out:
+  id: odd_one_out.test.v1
+  metrics:
+  - accuracy
+odd_one_out.test.v1:
+  args:
+    samples_jsonl: odd_one_out/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+odd_one_out_few_shot:
+  id: odd_one_out_few_shot.test.v1
+  metrics:
+  - accuracy
+odd_one_out_few_shot.test.v1:
+  args:
+    few_shot_jsonl: odd_one_out/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: odd_one_out/samples.jsonl
+  class: evals.elsuite.basic.match:Match

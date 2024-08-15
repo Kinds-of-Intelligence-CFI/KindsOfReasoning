@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"The chicken pasta is waiting for his check. <--> The dish of chicken pasta is waiting for it's check.\n\n1. False\n2. True","name":"example_user"},{"role":"system","content":"False","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"Her eyes were fireflies <--> Her eyes were dark and deep \n1. True\n2. False","name":"example_user"},{"role":"system","content":"False","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"As for Peleg he took it more like a philosopher. <-->  As for Peleg he responded in a thoughtful way.\n1. True\n2. False","name":"example_user"},{"role":"system","content":"True","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"And now they were leaking all kinds of documents <-->  And now they were burning all kinds of documents\n1. True\n2. False","name":"example_user"},{"role":"system","content":"False","name":"example_assistant"}]}

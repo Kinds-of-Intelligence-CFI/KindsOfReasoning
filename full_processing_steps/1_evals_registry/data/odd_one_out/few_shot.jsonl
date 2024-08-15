@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"Pick the odd word out: cat, giraffe, dog, hamster, turtle","name":"example_user"},{"role":"system","content":"giraffe","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"Pick the odd word out: white, black, red, apple","name":"example_user"},{"role":"system","content":"apple","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"Pick the odd word out: Italian, Spanish, Egyptian, China, Chinese","name":"example_user"},{"role":"system","content":"China","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"Pick the odd word out: eraser, exciting, ugly, fat, beautiful, slow","name":"example_user"},{"role":"system","content":"eraser","name":"example_assistant"}]}

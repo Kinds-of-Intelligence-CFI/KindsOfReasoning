@@ -1,0 +1,18 @@
+wanli:
+  id: wanli.test.v1
+  metrics:
+  - accuracy
+wanli.test.v1:
+  args:
+    samples_jsonl: wanli/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+wanli_few_shot:
+  id: wanli_few_shot.test.v1
+  metrics:
+  - accuracy
+wanli_few_shot.test.v1:
+  args:
+    few_shot_jsonl: wanli/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: wanli/samples.jsonl
+  class: evals.elsuite.basic.match:Match

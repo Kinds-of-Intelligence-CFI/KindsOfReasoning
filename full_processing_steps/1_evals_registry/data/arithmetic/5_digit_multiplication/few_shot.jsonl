@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 66682 times 31194?","name":"example_user"},{"role":"system","content":"2080078308","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 30901 times 79322?","name":"example_user"},{"role":"system","content":"2451129122","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 85846 times 96476?","name":"example_user"},{"role":"system","content":"8282078696","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 64291 times 65888?","name":"example_user"},{"role":"system","content":"4236005408","name":"example_assistant"}]}

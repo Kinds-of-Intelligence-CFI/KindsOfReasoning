@@ -1,0 +1,18 @@
+copa:
+  id: copa.test.v1
+  metrics:
+  - accuracy
+copa.test.v1:
+  args:
+    samples_jsonl: copa/samples.jsonl
+  class: evals.elsuite.basic.match:Match
+copa_few_shot:
+  id: copa_few_shot.test.v1
+  metrics:
+  - accuracy
+copa_few_shot.test.v1:
+  args:
+    few_shot_jsonl: copa/few_shot.jsonl
+    num_few_shot: 4
+    samples_jsonl: copa/samples.jsonl
+  class: evals.elsuite.basic.match:Match

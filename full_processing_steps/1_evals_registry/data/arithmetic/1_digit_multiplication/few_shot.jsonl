@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 8 times 3?","name":"example_user"},{"role":"system","content":"24","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 5 times 3?","name":"example_user"},{"role":"system","content":"15","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 7 times 0?","name":"example_user"},{"role":"system","content":"0","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 4 times 5?","name":"example_user"},{"role":"system","content":"20","name":"example_assistant"}]}

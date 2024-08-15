@@ -1,0 +1,4 @@
+{"sample":[{"role":"system","content":"What is 99 divided by 1?","name":"example_user"},{"role":"system","content":"99","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 35 divided by 35?","name":"example_user"},{"role":"system","content":"1","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 98 divided by 2?","name":"example_user"},{"role":"system","content":"49","name":"example_assistant"}]}
+{"sample":[{"role":"system","content":"What is 70 divided by 5?","name":"example_user"},{"role":"system","content":"14","name":"example_assistant"}]}
