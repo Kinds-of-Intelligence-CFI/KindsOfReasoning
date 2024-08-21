@@ -2,30 +2,31 @@
 # This script runs the evaluation scripts for the different models, relying on openai evals library
 # MODIFY THIS SCRIPT ACCORDINGLY WITH YOUR PATHS AND SIMILAR.
 
-# arguments:
-# one or more completion functions, separated by commas. However, "match only supports one completion function".
-# I'll need to use loops then
-# an eval, see registry. If you want to run multiple evals at once, need to define a set.
+# IF USING A VIRTUAL ENVIRONMENT, ACTIVATE IT HERE
+source ~/venv/<your_venv>/bin/activate
 
-conda deactivate
-source ~/venv/recog-LLM_capabilities/bin/activate
+# SPECIFY THE PATH OF THE FOLDER WHERE THIS SCRIPT IS LOCATED
+ROOT_FOLDER_PATH=<your_path>
 
 TIMESTAMP=$(date +%Y-%m-%d_%H-%M-%S)
 # create general log file:
-ROOT_FOLDER_PATH="/home/lorenzo/Dropbox/RECOG-AI/code/LLM_capabilities"
 mkdir -p ${ROOT_FOLDER_PATH}/run_evals/logs/${TIMESTAMP}
 GENERAL_OUT=${ROOT_FOLDER_PATH}/run_evals/logs/${TIMESTAMP}/general.out
 touch $GENERAL_OUT
 
 # load the API key
-source ${ROOT_FOLDER_PATH}/.env
+# OPEN THE .env FILE AND ADD THE API KEY!
+source ${ROOT_FOLDER_PATH}/.env  
 
-MODELS=( "gpt-4-0125-preview" "gpt-4-1106-preview" "gpt-4-0613" "gpt-4-0314" "gpt-3.5-turbo-0125" "gpt-3.5-turbo-1106" "gpt-3.5-turbo-0613" "gpt-3.5-turbo-0301" )
-SKIP_IF_FILE_FOUND=1
+#MODELS=( "gpt-4-0125-preview" "gpt-4-1106-preview" "gpt-4-0613" "gpt-4-0314" "gpt-3.5-turbo-0125" "gpt-3.5-turbo-1106" "gpt-3.5-turbo-0613" "gpt-3.5-turbo-0301" )
+MODELS=( "gpt-3.5-turbo-0125"  )
+
+# SET THIS TO 1 TO SKIP EVALUATIONS IF THE FILE ALREADY EXISTS; SET TO 0 TO RUN ALL EVALUATIONS AND OVERWRITE EXISTING FILES
+SKIP_IF_FILE_FOUND=1  
 
 # --- cheap evals ---
+# those for which we run all samples
 EVALS_CHEAP=("cause_and_effect_one_sentence_no_prompt" "odd_one_out" "cause_and_effect_one_sentence" "cause_and_effect_two_sentences" "crass_ai" "logical_args" "emoji_movie" "fantasy_reasoning" "metaphor_boolean" "geometric_shapes" "space_nli" "abstract_narrative_understanding_4_distractors" "arithmetic_1_digit_division" "arithmetic_1_digit_subtraction" "arithmetic_1_digit_addition" "arithmetic_1_digit_multiplication" "arithmetic_2_digit_division" "arithmetic_3_digit_division" "arithmetic_2_digit_multiplication" "arithmetic_2_digit_addition" "arithmetic_2_digit_subtraction" "arithmetic_3_digit_multiplication" "arithmetic_3_digit_addition" "arithmetic_3_digit_subtraction" "arithmetic_4_digit_multiplication" "arithmetic_4_digit_addition" "arithmetic_4_digit_subtraction" "arithmetic_4_digit_division" "arithmetic_5_digit_multiplication" "arithmetic_5_digit_addition" "arithmetic_5_digit_subtraction" "arithmetic_5_digit_division" "copa" "anli" "cosmos_qa" "ropes" )
-# 'dyck_languages
 MAX_SAMPLES=10000
 
 # create empty log file:
@@ -40,7 +41,7 @@ for eval in "${EVALS_CHEAP[@]}"; do
   for model in "${MODELS[@]}"; do
 
     if [ $SKIP_IF_FILE_FOUND -eq 1 ]; then
-      if [ -f ${ROOT_FOLDER_PATH}/results/$eval/$model.jsonl ]; then
+      if [ -f ${ROOT_FOLDER_PATH}/2_results/$eval/$model.jsonl ]; then
         echo "Skipping eval $eval for model $model because file already exists" >> $GENERAL_OUT
         continue
       fi
@@ -48,8 +49,8 @@ for eval in "${EVALS_CHEAP[@]}"; do
     echo "Running eval $eval for model $model" >> $GENERAL_OUT
     oaieval $model $eval \
       --max_samples $MAX_SAMPLES \
-      --record_path=${ROOT_FOLDER_PATH}/results/$eval/$model.jsonl \
-      --registry_path ${ROOT_FOLDER_PATH}/registry >> $CHEAP_EVALS_OUT 2>> $CHEAP_EVALS_ERR
+      --record_path=${ROOT_FOLDER_PATH}/2_results/$eval/$model.jsonl \
+      --registry_path ${ROOT_FOLDER_PATH}/1_registry >> $CHEAP_EVALS_OUT 2>> $CHEAP_EVALS_ERR
   done
 done
 echo Run $i evals >> $GENERAL_OUT
@@ -70,7 +71,7 @@ for eval in "${EVALS_MAX_1000[@]}"; do
   for model in "${MODELS[@]}"; do
 
     if [ $SKIP_IF_FILE_FOUND -eq 1 ]; then
-      if [ -f ${ROOT_FOLDER_PATH}/results/$eval/$model.jsonl ]; then
+      if [ -f ${ROOT_FOLDER_PATH}/2_results/$eval/$model.jsonl ]; then
         echo "Skipping eval $eval for model $model because file already exists" >> $GENERAL_OUT
         continue
       fi
@@ -79,8 +80,8 @@ for eval in "${EVALS_MAX_1000[@]}"; do
     echo "Running eval $eval for model $model" >> $GENERAL_OUT
     oaieval $model $eval \
       --max_samples $MAX_SAMPLES \
-      --record_path=${ROOT_FOLDER_PATH}/results/$eval/$model.jsonl \
-      --registry_path ${ROOT_FOLDER_PATH}/registry >> $EXPENSIVE_EVALS_OUT 2>> $EXPENSIVE_EVALS_ERR
+      --record_path=${ROOT_FOLDER_PATH}/2_results/$eval/$model.jsonl \
+      --registry_path ${ROOT_FOLDER_PATH}/1_registry >> $EXPENSIVE_EVALS_OUT 2>> $EXPENSIVE_EVALS_ERR
    done
 done
 echo Run $i evals  >> $GENERAL_OUT
@@ -101,7 +102,7 @@ for eval in "${EVALS_IN_LIBRARY[@]}"; do
   for model in "${MODELS[@]}"; do
 
     if [ $SKIP_IF_FILE_FOUND -eq 1 ]; then
-      if [ -f ${ROOT_FOLDER_PATH}/results/$eval/$model.jsonl ]; then
+      if [ -f ${ROOT_FOLDER_PATH}/2_results/$eval/$model.jsonl ]; then
         echo "Skipping eval $eval for model $model because file already exists" >> $GENERAL_OUT
         continue
       fi
@@ -109,7 +110,7 @@ for eval in "${EVALS_IN_LIBRARY[@]}"; do
     echo "Running eval $eval for model $model" >> $GENERAL_OUT
     oaieval $model $eval \
       --max_samples $MAX_SAMPLES \
-      --record_path=${ROOT_FOLDER_PATH}/results/$eval/$model.jsonl >> $IN_LIBRARY_EVALS_OUT 2>> $IN_LIBRARY_EVALS_ERR
+      --record_path=${ROOT_FOLDER_PATH}/2_results/$eval/$model.jsonl >> $IN_LIBRARY_EVALS_OUT 2>> $IN_LIBRARY_EVALS_ERR
   done
 done
 echo Run $i evals  >> $GENERAL_OUT
