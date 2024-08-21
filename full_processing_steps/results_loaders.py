@@ -518,10 +518,10 @@ def load_kinds_of_reasoning(llms, base_path="2_results/", validation_size=0.2,
             final_df = single_df
 
     # sort the columns: first prompt and system prompt, then the various splits, then all the success and answers:
-    print(final_df.shape)
-    final_df = final_df[["prompt", "system_prompt"] + ["Random_split"] + [f"OOD_{i+1}_split" for i in range(4)] +
+    columns_before = final_df.columns
+    final_df = final_df[["prompt", "system_prompt"] + ["dataset", "Random_split"] + [f"OOD_{i+1}_split" for i in range(4)] +
                         [f"Success_{llm}" for llm in llms] + [f"Answer_{llm}" for llm in llms]]
-    print(final_df.shape)
+    columns_after = final_df.columns
 
     return final_df
 
