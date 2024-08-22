@@ -18,15 +18,15 @@ touch $GENERAL_OUT
 # OPEN THE .env FILE AND ADD THE API KEY!
 source ${ROOT_FOLDER_PATH}/.env  
 
-#MODELS=( "gpt-4-0125-preview" "gpt-4-1106-preview" "gpt-4-0613" "gpt-4-0314" "gpt-3.5-turbo-0125" "gpt-3.5-turbo-1106" "gpt-3.5-turbo-0613" "gpt-3.5-turbo-0301" )
-MODELS=( "gpt-3.5-turbo-0125"  )
+#MODELS=( "gpt-4o-2024-08-06" "gpt-4o-2024-05-13" "gpt-4o-mini-2024-07-18" "gpt-4-turbo-2024-04-09" "gpt-4-0125-preview" "gpt-4-1106-preview" "gpt-4-0613" "gpt-4-0314" "gpt-3.5-turbo-0125" "gpt-3.5-turbo-1106" "gpt-3.5-turbo-0613" "gpt-3.5-turbo-0301" )
+MODELS=( "gpt-3.5-turbo-0125" )
 
 # SET THIS TO 1 TO SKIP EVALUATIONS IF THE FILE ALREADY EXISTS; SET TO 0 TO RUN ALL EVALUATIONS AND OVERWRITE EXISTING FILES
 SKIP_IF_FILE_FOUND=1  
 
 # --- cheap evals ---
 # those for which we run all samples
-EVALS_CHEAP=("cause_and_effect_one_sentence_no_prompt" "odd_one_out" "cause_and_effect_one_sentence" "cause_and_effect_two_sentences" "crass_ai" "logical_args" "emoji_movie" "fantasy_reasoning" "metaphor_boolean" "geometric_shapes" "space_nli" "abstract_narrative_understanding_4_distractors" "arithmetic_1_digit_division" "arithmetic_1_digit_subtraction" "arithmetic_1_digit_addition" "arithmetic_1_digit_multiplication" "arithmetic_2_digit_division" "arithmetic_3_digit_division" "arithmetic_2_digit_multiplication" "arithmetic_2_digit_addition" "arithmetic_2_digit_subtraction" "arithmetic_3_digit_multiplication" "arithmetic_3_digit_addition" "arithmetic_3_digit_subtraction" "arithmetic_4_digit_multiplication" "arithmetic_4_digit_addition" "arithmetic_4_digit_subtraction" "arithmetic_4_digit_division" "arithmetic_5_digit_multiplication" "arithmetic_5_digit_addition" "arithmetic_5_digit_subtraction" "arithmetic_5_digit_division" "copa" "anli" "cosmos_qa" "ropes" )
+EVALS_CHEAP=( "odd_one_out" "cause_and_effect_one_sentence" "cause_and_effect_two_sentences" "crass_ai" "logical_args" "emoji_movie" "fantasy_reasoning" "metaphor_boolean" "geometric_shapes" "space_nli" "abstract_narrative_understanding_4_distractors" "arithmetic_1_digit_division" "arithmetic_1_digit_subtraction" "arithmetic_1_digit_addition" "arithmetic_1_digit_multiplication" "arithmetic_2_digit_division" "arithmetic_3_digit_division" "arithmetic_2_digit_multiplication" "arithmetic_2_digit_addition" "arithmetic_2_digit_subtraction" "arithmetic_3_digit_multiplication" "arithmetic_3_digit_addition" "arithmetic_3_digit_subtraction" "arithmetic_4_digit_multiplication" "arithmetic_4_digit_addition" "arithmetic_4_digit_subtraction" "arithmetic_4_digit_division" "arithmetic_5_digit_multiplication" "arithmetic_5_digit_addition" "arithmetic_5_digit_subtraction" "arithmetic_5_digit_division" "copa" "anli" "cosmos_qa" "ropes" )
 MAX_SAMPLES=10000
 
 # create empty log file:
