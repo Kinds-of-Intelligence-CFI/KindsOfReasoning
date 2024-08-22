@@ -2,7 +2,9 @@
 
 This folder contains all the code needed to adapt the various datasets composing `KindsOfReasoning` to the format used by the [OpenAI `evals` library](https://github.com/openai/evals), run them for the various LLMs and generate the final results files. More precisely, the complete steps are the following:
 
-1. Download the datasets and convert them in a common format by running `Python set_up_datasets.py`. In particular, this will download the raw data into a folder named `1_raw_datasets`  and convert them to a format suitable for the [OpenAI `evals` library](https://github.com/openai/evals); the converted datasets and "registry" file are stored them in the `1_registry` folder. If you want to download one (or a few) datasets only, you can do so by running
+
+0. Install the required packages: set up a fresh virtual environment and run `pip install -r requirements.txt`.
+1. Download the datasets and convert them in a common format by running `python set_up_datasets.py`. In particular, this will download the raw data into a folder named `1_raw_datasets`  and convert them to a format suitable for the [OpenAI `evals` library](https://github.com/openai/evals); the converted datasets and "registry" file are stored them in the `1_registry` folder. If you want to download one (or a few) datasets only, you can do so by running
     ```python 
     python set_up_datasets.py --datasets space_nli
     ```
@@ -17,6 +19,7 @@ The raw datasets (in the `1_raw_datasets` folder) and the raw results from runni
 
 
 - [X] Convert to single df.
-- [ ] Update cost of tokens for new models
-- [ ] Run on new LLMs from OpenAI
-- [ ] needed packages: Instructions on what OpenAI evals version is needed: do I need my fork, or is the default version sufficient?
+- [X] Update cost of tokens for new models
+- [ ] Run on new LLMs from OpenAI: Running...
+- [X] needed packages: Instructions on what OpenAI evals version is needed: do I need my fork, or is the default version sufficient?
+- [ ] Check the license for the various datasets
