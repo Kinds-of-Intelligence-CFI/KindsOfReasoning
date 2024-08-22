@@ -1020,7 +1020,7 @@ if __name__ == "__main__":
         dataset = dataset_class()
 
         raw_data = os.path.join("1_raw_datasets", dataset_name)
-        registry = os.path.join("1_evals_registry")
+        registry = os.path.join("1_registry")
         # create the folders if they do not exist
         os.makedirs(raw_data, exist_ok=True)
         os.makedirs(registry, exist_ok=True)
