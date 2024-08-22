@@ -1002,10 +1002,6 @@ class Arithmetic(DatasetPreparerBIGBench):
     append_choices_to_input = False
 
 
-# --- The following datasets are not part of the KindsOfReasoning collection, but they are included here as they may be
-# of interest anyway ---
-
-
 if __name__ == "__main__":
     # set up arg parser that can list the datasets that you want to set up
     parser = argparse.ArgumentParser(description='Set up datasets')

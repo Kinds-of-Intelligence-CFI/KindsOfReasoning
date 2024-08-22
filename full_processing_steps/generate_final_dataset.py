@@ -519,7 +519,7 @@ def load_kinds_of_reasoning(llms, base_path="2_results/", validation_size=0.2,
 
     # sort the columns: first prompt and system prompt, then the various splits, then all the success and answers:
     columns_before = final_df.columns
-    final_df = final_df[["prompt", "system_prompt"] + ["dataset", "Random_split"] + [f"OOD_{i+1}_split" for i in range(4)] +
+    final_df = final_df[["prompt", "system_prompt", "dataset", "Random_split"] + [f"OOD_{i+1}_split" for i in range(4)] +
                         [f"Success_{llm}" for llm in llms] + [f"Answer_{llm}" for llm in llms]]
     columns_after = final_df.columns
 
@@ -552,6 +552,13 @@ if __name__ == "__main__":
                               subsampled_n_train=None, subsampled_n_test=None, random_state=42)
 
     # save the file into a csv:
-    final_df.to_csv("../KindsOfReasoning.csv", index=False)
+    final_df.to_csv("../KindsOfReasoning_with_llm_results.csv", index=False)
     # save the file into a json
-    final_df.to_json("../KindsOfReasoning.json", orient="records", lines=True)
+    final_df.to_json("../KindsOfReasoning_with_llm_results.json", orient="records", lines=True)
+
+    final_df_without_results = final_df[["prompt", "system_prompt", "dataset", "Random_split"] + [f"OOD_{i+1}_split" for i in range(4)]]
+
+    # save the file into a csv:
+    final_df_without_results.to_csv("../KindsOfReasoning.csv", index=False)
+    # save the file into a json
+    final_df_without_results.to_json("../KindsOfReasoning.json", orient="records", lines=True)
