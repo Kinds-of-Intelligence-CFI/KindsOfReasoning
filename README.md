@@ -53,7 +53,7 @@ If you use `KindsOfReasoning`, please cite the following paper:
 
 
 # Credits
-The benchmark and accompanying code is released under the CC-BY-NC-SA 4.0 license. This requires attribution, prohibits commercial use, and mandates that any derivatives be shared under the same terms.
+The collection of datasets and accompanying code is released under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en). This requires attribution, prohibits commercial use, and mandates that any derivatives be shared under the same terms.
 
 ## Code
 Part of the code in `full_processing_steps/src/set_up_datasets.py` is adapted from https://github.com/stanford-crfm/helm, which is released under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
