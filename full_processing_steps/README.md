@@ -16,5 +16,3 @@ Notice that some of the datasets in `KindsOfReasoning` are already included in t
 The raw datasets (in the `1_raw_datasets` folder) are not provided in this repository as they take up too much space. Instead, the registry `1_registry` is provided for convenience, so that users can directly jump to step 2 to evaluate a new LLM on the dataset. Notice that the `evals` library is not limited to evaluating OpenAI LLMs, see [here](https://github.com/openai/evals/blob/main/docs/completion-fns.md) for more details. 
 
 The evaluation results produced by running `run_evals.sh` are compressed and provided in `2_results.tar.gz`. These contain the data as the final dataframes reported in the root folder of this repository, and a few other additional information on the runs.
-
-- [ ] Check the license for the various datasets

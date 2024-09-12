@@ -40,7 +40,91 @@ Notice that some of those models are now deprecated. You can obtain the results 
 If you use `KindsOfReasoning`, please cite the following paper:
 
 ```bibtex
-
-
+@misc{pacchiardi2024100instancesneedpredicting,
+      title={100 instances is all you need: predicting the success of a new LLM on unseen data by testing on a few instances}, 
+      author={Lorenzo Pacchiardi and Lucy G. Cheke and José Hernández-Orallo},
+      year={2024},
+      eprint={2409.03563},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.03563}, 
+}
 ```
 
+
+# Credits
+The benchmark and accompanying code is released under the CC-BY-NC-SA 4.0 license. This requires attribution, prohibits commercial use, and mandates that any derivatives be shared under the same terms.
+
+## Code
+Part of the code in `full_processing_steps/src/set_up_datasets.py` is adapted from https://github.com/stanford-crfm/helm, which is released under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+## Datasets
+
+The individual datasets included in the `KindsOfReasoning` collection are obtained from the following sources:
+
+- Formal Fallacies Syllogisms Negation
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Logical_Args
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Babi_Task_16
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- LogiQA 2.0
+  - License: CC-BY-NC-SA 4.0
+  - Attribution: https://github.com/csitfun/LogiQA2.0
+- WANLI
+  - License: We thank the author for having personally granted permission for the use of this dataset in this benchmark.
+  - Attribution: https://github.com/alisawuffles/wanli
+- Alpha_NLI
+  - License: Apache License 2.0
+  - Attribution: © The Allen Institute for Artificial Intelligence https://leaderboard.allenai.org/anli/submissions/get-started
+- ReClor
+  - License: We thank the author for having personally granted permission for the use of this dataset in this benchmark. ReClor is for non-commercial usage only
+  - Attribution: https://github.com/yuweihao/reclor
+- Crass_AI
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Cause and Effect
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Fantasy Reasoning
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Goal Step Inference
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Copa
+  - License: BSD 2-Clause License
+  - Attribution: © M Roemmele, CA Bejan, AS Gordon.  https://people.ict.usc.edu/~gordon/copa.html
+- Cosmos_QA
+  - License: We thank the author for having personally granted permission for the use of this dataset in this benchmark.
+  - Attribution: https://github.com/wilburOne/cosmosqa
+- Ropes
+  - License: CC-BY 4.0
+  - Attribution: © The Allen Institute for Artificial Intelligence Derived from https://huggingface.co/datasets/ropes
+- ANLI
+  - License: CC-BY-NC 4.0
+  - Attribution: © Facebook, Inc. https://github.com/facebookresearch/anli
+- Emoji_Movie
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Abstract Narrative Understanding
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Odd One Out
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Metaphor Understanding
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Geometric Shapes
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
+- Space_NLI
+  - License: MIT License
+  - Attribution: Copyright (c) 2023 Fibo Kowalsky https://github.com/kovvalsky/SpaceNLI
+- Arithmetic
+  - License: Apache License 2.0
+  - Attribution: Derived from [BIG-Bench](https://github.com/google/BIG-bench/).
