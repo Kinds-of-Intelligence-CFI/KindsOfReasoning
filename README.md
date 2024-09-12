@@ -8,7 +8,7 @@ In particular, the root folder of the repository contains the following files:
 - `KindsOfReasoning.<csv|json>`: the collection of datasets in a single dataframe 
 - `KindsOfReasoning_with_llm_results.<csv|json>`: the collection of datasets, with results of the tested LLMs, in a single dataframe
 
-To use the final datasets, you can load one of those files with `pandas` or another library. I instead you want to re-create the dataset from 0, or run it on another LLM by adapting the code used to obtain the original results, look into the `full_processing_steps` folder.
+To use the final datasets, you can load one of those files with `pandas` or another library. If instead you want to re-create the dataset from scratch, or run it on another LLM by adapting the code used to obtain the original results, look into the `full_processing_steps` folder.
 
 ## Models on which results are available: 
 
